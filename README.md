@@ -12,3 +12,6 @@ The URL of "amqp://guest:guest@localhost:5672" is the same as in the subscriber 
 
 <br><br>After running both the publisher and the subscriber, the publisher program sent five messages or events through the message broker. The subscriber then processes these five messages or events that were sent.
 ![alt text](ScreenshotPublisher2.png)
+
+<br><br>The spike in the RabbitMQ chart shows the rate of the messages that were sent to the channel within a specific interval of time. By running the publisher and making it send messages to the message broker, it resulted in their being a spike in the chart, indicating that messages were successfully published and received by the RabbitMQ broker.
+![alt text](ScreenshotPublisher3.png)
