@@ -9,3 +9,6 @@ The publisher program sends five messages to the message broker in one run.
 The URL of "amqp://guest:guest@localhost:5672" is the same as in the subscriber program, meaning that both the publisher and the subscriber are communicating by connecting to the same RabbitMQ broker, with the broker running locally on the default port for AMQP. This ensures that both the publisher and the subcriber can exchange messages through a shared message queue on the same RabbitMQ broker.
 
 ![alt text](ScreenshotPublisher1.png)
+
+<br><br>After running both the publisher and the subscriber, the publisher program sent five messages or events through the message broker. The subscriber then processes these five messages or events that were sent.
+![alt text](ScreenshotPublisher2.png)
