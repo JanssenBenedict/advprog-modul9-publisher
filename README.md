@@ -1,0 +1,9 @@
+- Name: Janssen Benedict
+- Class: Pemrograman Lanjut A
+- NPM: 2306152102
+
+### a. How much data your publisher program will send to the message broker in one run?
+The publisher program sends five messages to the message broker in one run.
+
+### b. The url of: "amqp://guest:guest@localhost:5672" is the same as in the subscriber program, what does it mean?
+The URL of "amqp://guest:guest@localhost:5672" is the same as in the subscriber program, meaning that both the publisher and the subscriber are communicating by connecting to the same RabbitMQ broker, with the broker running locally on the default port for AMQP. This ensures that both the publisher and the subcriber can exchange messages through a shared message queue on the same RabbitMQ broker.
